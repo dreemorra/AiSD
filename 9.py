@@ -1,4 +1,4 @@
-#this solution will get TL
+#this solution will get TL on Python
 
 def inverted(c):
     return (c.upper() if c.islower() else c.lower())
