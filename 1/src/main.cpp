@@ -4,7 +4,7 @@
 using namespace std;
 
 vector<char> used;
-vector <vector<int>> g;
+vector <vector<pair<int,int>>> g;
 
 void dfs (int v) {
 	used[v] = true;
